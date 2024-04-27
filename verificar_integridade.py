@@ -28,4 +28,5 @@ def imprime_resultado():
     if hash_resultado:
         print(f"Hash MD5 do arquivo '{arquivo}': {hash_resultado}")
 
-;
+if __name__ == "__main__":
+    imprime_resultado()
