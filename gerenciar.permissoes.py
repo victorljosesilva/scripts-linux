@@ -22,3 +22,5 @@ def alterar_permissao_arquivos(diretorio, permissao):
 diretorio = # "/caminho/do/diretorio"
 permissao = 0o755
 
+if __name__ == "__main__":
+    alterar_permissao_arquivos(diretorio, permissao)
