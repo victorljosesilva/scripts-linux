@@ -24,3 +24,6 @@ def limpar_temporarios(diretorio):
         logging.error(f"Erro ao limpar arquivos temporários: {e}")
 
 diretorio = # "/caminho/do/diretorio"
+
+if __name__ == "__main__":
+    limpar_temporarios(diretorio)
