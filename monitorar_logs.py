@@ -17,3 +17,4 @@ def monitorar_logs(arquivo_log, num_linhas=None):
 
 arquivo_log = "/caminho/do/arquivo.log"
 
+num_linhas = 10
