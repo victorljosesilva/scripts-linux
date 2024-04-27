@@ -17,3 +17,20 @@ def verificar_conexao_internet():
         print("Erro: Não foi possível estabelecer conexão com a internet.")
         exit(1)
 
+def atualizar_pacotes():
+    logging.basicConfig(filename='atualizacao_pacotes.log', level=logging.INFO, format='%(asctime)s - %(message)s')
+
+    try:
+        subprocess.run(["sudo", "apt", "update"], check=True)
+        resultado_upgrade = subprocess.run(["sudo", "apt", "upgrade", "-y"], capture_output=True, text=True)
+        logging.info(resultado_upgrade.stdout)
+        if resultado_upgrade.returncode == 0:
+            print("Atualização de pacotes concluída com sucesso.")
+        else:
+            print("Erro ao atualizar pacotes. Verifique o arquivo de log para mais detalhes")
+            logging.error(resultado_upgrade.stderr)
+    except subprocess.CalledProcessError as e:
+        print(f"Erro ao executar comando: {e}")
+        logging.error(f"Erro ao executar comando: {e}")
+
+
