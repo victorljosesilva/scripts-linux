@@ -15,4 +15,5 @@ def monitorar_logs(arquivo_log, num_linhas=None):
     except Exception as e:
         print(f"Erro ao monitorar logs do arquivo: {e}")
 
+arquivo_log = "/caminho/do/arquivo.log"
 
