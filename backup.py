@@ -37,3 +37,4 @@ def fazer_backup(diretorio_origem, diretorio_destino):
 diretorio_origem = # "/caminho/da/origem"
 diretorio_destino = # "/caminho/do/destino"
 
+fazer_backup(diretorio_origem, diretorio_destino)
