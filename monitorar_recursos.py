@@ -20,3 +20,5 @@ def monitorar_recursos():
         logging.error(f"Erro ao monitorar recursos do sistema: {e}")
 
 
+if __name__ == "__main__":
+    monitorar_recursos()
