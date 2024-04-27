@@ -20,3 +20,5 @@ def alterar_permissao_arquivos(diretorio, permissao):
         logging.error(f"Erro ao alterar permissões: {e}")
 
 diretorio = # "/caminho/do/diretorio"
+permissao = 0o755
+
