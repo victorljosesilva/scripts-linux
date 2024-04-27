@@ -18,3 +18,6 @@ def monitorar_logs(arquivo_log, num_linhas=None):
 arquivo_log = "/caminho/do/arquivo.log"
 
 num_linhas = 10
+
+if __name__ == "__main__":
+    monitorar_logs(arquivo_log, num_linhas)
