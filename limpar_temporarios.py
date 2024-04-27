@@ -22,3 +22,4 @@ def limpar_temporarios(diretorio):
         print(f"Erro ao limpar arquivos temporários: {e}")
         logging.error(f"Erro ao limpar arquivos temporários: {e}")
 
+diretorio = "/caminho/do/diretorio"
