@@ -23,4 +23,9 @@ def calcular_hash(arquivo):
         return None
 
 arquivo = "/caminho/do/arquivo"
+def imprime_resultado():
+    hash_resultado = calcular_hash(arquivo)
+    if hash_resultado:
+        print(f"Hash MD5 do arquivo '{arquivo}': {hash_resultado}")
 
+;
