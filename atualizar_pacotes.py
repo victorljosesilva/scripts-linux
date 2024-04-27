@@ -34,3 +34,7 @@ def atualizar_pacotes():
         logging.error(f"Erro ao executar comando: {e}")
 
 
+if __name__ == "__main__":
+    verificar_permissao_superusuario()
+    verificar_conexao_internet()
+    atualizar_pacotes()
