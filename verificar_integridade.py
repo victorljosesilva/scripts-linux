@@ -22,3 +22,5 @@ def calcular_hash(arquivo):
         logging.error(f"Erro ao calcular hash do arquivo: {e}")
         return None
 
+arquivo = "/caminho/do/arquivo"
+
