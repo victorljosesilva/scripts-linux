@@ -34,7 +34,7 @@ def fazer_backup(diretorio_origem, diretorio_destino):
     except Exception as e:
         print(f"Erro ao fazer backup: {e}")
 
-diretorio_origem = # "/caminho/da/origem"
-diretorio_destino = # "/caminho/do/destino"
+diretorio_origem =  "/caminho/da/origem"
+diretorio_destino =  "/caminho/do/destino"
 
 fazer_backup(diretorio_origem, diretorio_destino)
