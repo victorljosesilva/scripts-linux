@@ -1,0 +1,35 @@
+Script de Backup:
+- Automatização da criação de backups de um diretório específico para outro destino.
+- Compactação dos arquivos de backup em formato zip.
+- Verificação de espaço disponível antes de iniciar o backup.
+
+Script de Atualização de Pacotes:
+- Automatização da atualização de pacotes do sistema usando os comandos apt update e apt upgrade.
+- Verificação da permissão de superusuário para execução do script.
+- Verificação da conexão com a internet antes de iniciar a atualização.
+- Registro de logs para registrar as operações realizadas e possíveis erros durante o processo.
+
+Script de Limpeza de Arquivos Temporários:
+- Automatização da limpeza de arquivos temporários de um diretório específico.
+- Verificação se o diretório fornecido existe.
+- Registro de logs para registrar as operações realizadas e possíveis erros durante o processo.
+
+Script de Alteração de Permissões de Arquivos:
+- Automatização da alteração de permissões de arquivos em um diretório específico.
+- Verificação se o diretório fornecido existe.
+- Registro de logs para registrar as operações realizadas e possíveis erros durante o processo.
+
+Script de Cálculo de Hash de Arquivo:
+- Automatização do cálculo do hash MD5 de um arquivo específico.
+- Verificação se o arquivo fornecido existe.
+- Registro de logs para registrar o resultado do cálculo do hash.
+
+Script de Monitoramento de Recursos do Sistema:
+- Automatização do monitoramento do uso da CPU, memória e disco do sistema.
+- Registro de logs para registrar as informações de monitoramento.
+
+Script de Monitoramento de Logs de Arquivo:
+- Automatização do monitoramento das últimas linhas de um arquivo de log específico.
+- Verificação se o arquivo de log fornecido existe.
+- Especificação do número máximo de linhas a serem exibidas.
+- Registro de logs para registrar as operações realizadas e possíveis erros durante o processo.
